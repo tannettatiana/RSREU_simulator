@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: Game
+Class-Path: ibxm.jar jinput.jar jnlp.jar lwjgl.jar lwjgl_util.jar lwjgl_
+ util_applet.jar natives-linux.jar natives-mac.jar natives-windows.jar s
+ lick-examples.jar slick.jar tinylinepp.jar jogg-0.0.7.jar jorbis-0.0.15
+ .jar
+

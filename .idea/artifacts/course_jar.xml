@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="course:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/course_jar</output-path>
+    <root id="root">
+      <element id="archive" name="course.jar">
+        <element id="module-output" name="course" />
+      </element>
+      <element id="library" level="project" name="ibxm" />
+    </root>
+  </artifact>
+</component>

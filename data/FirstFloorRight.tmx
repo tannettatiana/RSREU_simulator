@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="85" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="19">
+ <tileset firstgid="1" source="tilea5.tsx"/>
+ <tileset firstgid="129" source="tiled.tsx"/>
+ <tileset firstgid="385" source="tiles.tsx"/>
+ <tileset firstgid="449" source="vx-winter-tileset.tsx"/>
+ <tileset firstgid="705" source="numbers.tsx"/>
+ <tileset firstgid="716" source="car.tsx"/>
+ <layer id="1" name="back" width="85" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2WTQ6CMBBGZ7yH8Q5ejDu4cGFcegx2ykoPZw0Sjf2ZKWmgUz+SlzYfMwXeoqXbEHVK9gQ0aH3+Os3pawE4hVMLwCmcWmBNp1saWdtBDtNlwemBfV751Y03R8+feSqPrVMq39GIZad3Nz7e7qZ5KodT2WnPPqkcTv399MTh2iEjj61RIq/R6YXbAE7h1AI1OdX+k56F95bqpP65fbnfXovT0JkbOoOP7CP1x+5rn/tdX8LpXOAUTlt0ap2l99N/AE7h1AJLOAUA2OYJ3jnj3jQhAAA=
+  </data>
+ </layer>
+ <layer id="2" name="obj" width="85" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2Y0U3DQAyGLxkhw3QCmIClGKH7tMAABfqQd3jICO0DZ7WRLGNfnOSSM8GfZPXk2ufT39RyLgTH+b+8ViG8VX8jRpNvgc94xvPAOa3EaPLX5KH+bcBXPON3xcf04BgpDsc8TqiliaE1sDnboEG2W9GkenPPATzVNysF1bQHr1v0if0Yjf+KbAk/rEHLQ+wDx2gvhXpsStPLfT1X0wvxtZn9uBZoeopavkf7MKgpxxx/h2wJv3SGteH6EfVzcWP9OfZI7R3QumQvBaz8tjmw0k+3qGnpfro1TQFL/33N7KedEafkT83j5tOSUE0bxqTZkBrEPTNxQ/maWThVF+9jrZ+mNKWzIaXXYC/UkPKl2XMoT9rHWj/VPKddwsbOltz30nOaqov3Kf2/ByQdOV2HbOq7es67BqD0+76TH+m+MhWj3Ysi3Z/mPI/fnzqO49jhB/pfdb40IQAA
+  </data>
+ </layer>
+ <layer id="3" name="walls" width="85" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2V3QrCMAyF+3p66191DOYu9P3fwFxUDGVx6xYwwvfBgfYsGeWsZCkBAAAAtNOLhqKrWmv1wfxUraORRTvRXvQwaiL67zNfjJpfktU6YnZzPpn6+1Ey1XPqpPyj6Cm6l/1Y9sMKv/Y8fX3mKJnm+ZK/gUz9IVN/ImZ6EJ0NTc2yWlbdXL9+vuR9lrr1MbiiM7W+89K73PrP3tpXE/GekqkPZOrPLX1mpjWPdM03dY3+1r6pegAAAIAWXu3m5bc0IQAA
+  </data>
+ </layer>
+ <layer id="4" name="walls2" width="85" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3Y2wpAQBSFYc1bOt3wpIrBeCmHRsY0OyYXqP+rnVprtlwiSQAAAJ4p7bVRx0zLFML5q9y9j5+bZUYh74W8s3l64xkA4E2ZkNcfy3MhB4AvKq+PbNLIPNRXEXs+3k8B/M3+3W7UOc+cfu0Gdc7dTtv/B6E9Hdjz91sVKAEAACLN7cDTgDQhAAA=
+  </data>
+ </layer>
+ <objectgroup draworder="index" id="5" name="auditories" width="85" height="25">
+  <object id="6" x="1793" y="448" width="351" height="149">
+   <text wrap="1">104</text>
+  </object>
+  <object id="7" x="1879" y="201" width="177" height="149">
+   <text wrap="1">105</text>
+  </object>
+  <object id="8" x="1592" y="455" width="177" height="149">
+   <text wrap="1">106</text>
+  </object>
+  <object id="9" x="1345" y="453" width="230" height="149">
+   <text wrap="1">106a</text>
+  </object>
+  <object id="10" x="1690" y="204" width="177" height="149">
+   <text wrap="1">107</text>
+  </object>
+  <object id="11" x="1146" y="449" width="177" height="149">
+   <text wrap="1">108</text>
+  </object>
+  <object id="12" x="1496" y="202" width="177" height="149">
+   <text wrap="1">109</text>
+  </object>
+  <object id="13" x="827" y="450" width="301" height="149">
+   <text wrap="1">110</text>
+  </object>
+  <object id="14" x="1304" y="203" width="177" height="149">
+   <text wrap="1">111</text>
+  </object>
+  <object id="15" x="732" y="203" width="177" height="149">
+   <text wrap="1">111a</text>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="stairs" width="85" height="25">
+  <object id="17" x="2068" y="198" width="86" height="74">
+   <text wrap="1">to 2nd right</text>
+  </object>
+  <object id="18" x="628" y="216" width="81" height="57">
+   <text wrap="1">to 2nd</text>
+  </object>
+ </objectgroup>
+</map>

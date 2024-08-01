@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="70" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="10">
+ <tileset firstgid="1" source="tilea5.tsx"/>
+ <tileset firstgid="129" source="tiles.tsx"/>
+ <tileset firstgid="193" source="tiled.tsx"/>
+ <tileset firstgid="449" source="vx-winter-tileset.tsx"/>
+ <tileset firstgid="705" source="numbers.tsx"/>
+ <layer id="1" name="back" width="70" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3XQQqAIBBAUekedYgu5h1cRssOXO1H0Zhp0r7wISYkeRspTiHEwVtDe95nxgWXr4WLnou0jk7TdNE6U3pQaV/u3T2frxbhGRdcendpaauc5eajuliFCy5/cdmV5r27aN9HqfAtXHDxcpGWtZVVmi7e/7pvhAsu1i5ERFad/Wn1F1gbAAA=
+  </data>
+ </layer>
+ <layer id="2" name="obj" width="70" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2YXQ7CIAzHYdfwCL77sj3qCbymL+oR/Mqe/couoNcQ4kg2Am1hVZnhl/wjri3FyjpFiAyVoxTiJMfhQ4nn4qby3JFcqfhQ4mOYF31pHirPU/rttg9lnkURnoviY+foKsPP7I+kWRZvDWWt9uBGaSv7Y8xu++p1VTJM5rOUsv86aW3mfWVdN6w641lbk53y2SsdBvYczrqEgtUFitG46nJWsRel65eeURh6XVMJyxUDzVdaMdh+SZHQPkC5BvlqXHXh6C2c/Pr74u4vXKRSlxT7Swr5ue+jSvrH1F4Q21tirkO/XzjB6lIDsbVnndgewp5HkM2lT/QXrC4NENsAazVz2BKAnWLz1YW7v2B1wUhlv3AR2ydSlBB8/48ybnznK1Q71c93/gLNEbqefP6SyWQy4+UFIEG06VgbAAA=
+  </data>
+ </layer>
+ <layer id="3" name="walls" width="70" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2U/QqDMAzE+3r7+G9MhW3gJupT+O7L2GRBLp3U0k68HxxI0ib0bOMcIYSQlNSRFFLLt8fK3Yz41TxhXrrIe6zcK34QHUWDaCfai8qA/ilI6cvIoL7py5c1+NKK+hm6f9Y/3HsuTGPjutqIn1XPNfgScl9iQl8w9AWTw5eTw/NBz41GVABZs6VXeVSz8PRCfXIw5y6g/1UtqOvL/cuboS+YLfqC3upU1uzQugTU9+V/5QghhBCyXZ6IWAnJWBsAAA==
+  </data>
+ </layer>
+ <layer id="4" name="walls 2" width="70" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3XTQqAIBRG0YebjP5GLqA1Zo1qUxkkmFiCECHeAyL4+RQciIoAAErUJnKjRDbbFtt2da/xs3A9l81BDYB6NBk1OiPrM/YBULYhMjYmat7eIm9ZbC/uHaAu3dW7P87q/Y1OOpI/ZcbL/rpLJpWeUyPOJY5zAYDvHKx+j/VYGwAA
+  </data>
+ </layer>
+ <objectgroup id="5" name="auditories" width="70" height="25">
+  <object id="1" x="1248" y="192" width="180" height="117">
+   <text wrap="1">201</text>
+  </object>
+  <object id="3" x="1248" y="429" width="200" height="116">
+   <text wrap="1">202</text>
+  </object>
+  <object id="4" x="1021" y="190" width="200" height="119">
+   <text wrap="1">203</text>
+  </object>
+  <object id="5" x="610" y="191" width="389" height="117">
+   <text wrap="1">203a</text>
+  </object>
+  <object id="6" x="1019" y="428" width="200" height="118">
+   <text wrap="1">204</text>
+  </object>
+  <object id="7" x="769" y="428" width="227" height="117">
+   <text wrap="1">204a</text>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="stairs" width="70" height="25">
+  <object id="8" x="1436" y="188" width="75" height="51">
+   <text wrap="1">to 1st</text>
+  </object>
+  <object id="9" x="1530" y="191" width="75" height="51">
+   <text wrap="1">to 3rd</text>
+  </object>
+ </objectgroup>
+</map>
